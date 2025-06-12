@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hello in Different Languages</title>
+<style>
+body {
+background-color: #121212;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: 'Segoe UI', sans-serif;
+font-size: 3rem;
+text-align: center;
+}
+
+.hello {
+animation: changeText 12s infinite;
+}
+
+@keyframes changeText {
+0%    { content: "🙏 नमस्ते"; }
+10%   { content: "👋 Hello"; }
+20%   { content: "👋 Hola"; }
+30%   { content: "👋 Bonjour"; }
+40%   { content: "👋 こんにちは"; }
+50%   { content: "👋 안녕하세요"; }
+60%   { content: "👋 你好"; }
+70%   { content: "👋 مرحبا"; }
+80%   { content: "👋 Здравствуйте"; }
+90%   { content: "👋 Ciao"; }
+100%  { content: "👋 नमस्ते"; }
+}
+
+.hello::before {
+content: "🙏 नमस्ते";
+animation: changeContent 12s infinite;
+}
+
+@keyframes changeContent {
+0%    { content: "🙏 नमस्ते"; }
+10%   { content: "👋 Hello"; }
+20%   { content: "👋 Hola"; }
+30%   { content: "👋 Bonjour"; }
+40%   { content: "👋 こんにちは"; }
+50%   { content: "👋 안녕하세요"; }
+60%   { content: "👋 你好"; }
+70%   { content: "👋 مرحبا"; }
+80%   { content: "👋 Здравствуйте"; }
+90%   { content: "👋 Ciao"; }
+100%  { content: "🙏 नमस्ते"; }
+}
+</style>
+</head>
+<body>
+<div class="hello"></div>
+</body>
+</html>
