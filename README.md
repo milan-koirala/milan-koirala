@@ -1,9 +1,5 @@
-<h1 align="left">Hi there, I'm Milan Koirala! <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px"></h1>
-
-
-<p align="center">
-  <img src="assets/hello-animation.gif" width="300" alt="Hello in different languages" />
-</p>
+<h1 align="left">Hi there, I'm Milan Koirala! <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px">   <img src="assets/helloanimation.gif" width="300"  alt="Hello in different languages" />
+</h1>
 
 ---
 
