@@ -1,8 +1,5 @@
-## Hi there 👋
+<h1 align="left">Hi there, I'm Milan Koirala! <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px"></h1>
 
-<h1 align="center">
-  🙏 नमस्ते | Hello | Hola | Bonjour | こんにちは | 안녕하세요 | 你好 | مرحبا
-</h1>
 
 <p align="center">
   <img src="assets/hello-animation.gif" width="300" alt="Hello in different languages" />
